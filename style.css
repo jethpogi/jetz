@@ -1,0 +1,101 @@
+body {
+  font-size: 20px;
+  margin: 20px;
+}
+
+.main {
+  max-width: 700px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header img {
+  height: 110px;
+  width: 100px;
+  object-fit: contain;
+}
+
+.title-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title-text h1 {
+  font-size: 28px;
+  margin: 0;
+}
+
+.title-text h3 {
+  font-size: 16px;
+  margin: 4px 0 0;
+}
+
+#title {
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.main p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.main p input[type="text"] {
+  flex: 1;
+  min-width: 300px;
+  max-width: 100%;
+  padding: 8px;
+  border: none;
+  border-bottom: 1px solid #000;
+  background: transparent;
+  font-size: 16px;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+footer p {
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+}
+
+@media (max-width: 600px) {
+  .main p input[type="text"] {
+    min-width: 100%;
+  }
+
+  .header {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .title-text {
+    justify-content: center;
+  }
+}

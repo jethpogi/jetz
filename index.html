@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Client Application Form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="main">
+    <div class="header">
+      <img src="banyan.jpg" alt="Banyan Logo" />
+      <div class="title-text">
+        <h1>BANYAN</h1>
+        <h3>WEB DESIGN</h3>
+      </div>
+    </div>
+
+    <h2 id="title">CLIENT APPLICATION FORM</h2>
+
+    <h4>Personal Information</h4>
+    <p>Full Name: <input type="text" /></p>
+    <p>Company or Organization (if any): <input type="text" /></p>
+    <p>Position/Role: <input type="text" /></p>
+    <p>Email Address: <input type="text" /></p>
+    <p>Phone Number: <input type="text" /></p>
+
+    <p>Preferred method of contact:
+      <span><input type="checkbox" id="Email" /><label for="Email">Email</label></span>
+      <span><input type="checkbox" id="Phone" /><label for="Phone">Phone</label></span>
+      <span><input type="checkbox" id="mesApp" /><label for="mesApp">Messaging Apps</label></span>
+    </p>
+
+    <h4>Project Details</h4>
+    <p>Project Name/Title: <input type="text" /></p>
+    <p>Deadline or Timeline: <input type="text" /></p>
+
+    <p>Types of Service Required:
+      <span><input type="checkbox" id="web" /><label for="web">Website Development</label></span>
+      <span><input type="checkbox" id="grap" /><label for="grap">Graphic Design</label></span>
+      <span><input type="checkbox" id="brand" /><label for="brand">Branding</label></span>
+      <span><input type="checkbox" id="market" /><label for="market">Marketing</label></span>
+    </p>
+
+    <p>Brief description of the Project: <input type="text" /></p>
+    <p>Target Audience: <input type="text" /></p>
+
+    <p>Budget Range:
+      <span><input type="checkbox" id="bel10" /><label for="bel10">Below 10,000</label></span>
+      <span><input type="checkbox" id="ten30" /><label for="ten30">10,000–30,000</label></span>
+      <span><input type="checkbox" id="fifty" /><label for="fifty">50,000</label></span>
+    </p>
+
+    <h4>File and Content Provision</h4>
+    <p>Will you provide content (text, image, etc)? 
+      <span><input type="checkbox" id="yes" /><label for="yes">Yes</label></span>
+      <span><input type="checkbox" id="no" /><label for="no">No</label></span>
+      <span><input type="checkbox" id="partially" /><label for="partially">Partially</label></span>
+    </p>
+
+    <p>Do you have brand assets (logo, colors, fonts)?
+      <span><input type="checkbox" id="yes1" /><label for="yes1">Yes</label></span>
+      <span><input type="checkbox" id="no1" /><label for="no1">Still in Development</label></span>
+    </p>
+
+    <h4>Approvals & Follow-ups</h4>
+    <p>Who will approve designs and decisions on your side? <input type="text" /></p>
+    <p>How often do you prefer updates?
+      <span><input type="checkbox" id="daily" /><label for="daily">Daily</label></span>
+      <span><input type="checkbox" id="weekly" /><label for="weekly">Weekly</label></span>
+      <span><input type="checkbox" id="keymist" /><label for="keymist">At key mists only</label></span>
+    </p>
+
+    <h3>Signature (if printed)</h3>
+    <p>Client signature: <input type="text" id="signa" /></p>
+    <p>Date: <input type="text" id="date" /></p>
+
+    <button type="submit" class="submit-btn">Submit</button>
+  </div>
+
+  <footer>
+    <p style="text-align: center; font-size: 14px; color: #888;">
+      For questions, contact us at <a href="mailto:banyanweb@gmail.com">banyanweb@gmail.com</a>
+    </p>
+  </footer>
+
+</body>
+</html>
